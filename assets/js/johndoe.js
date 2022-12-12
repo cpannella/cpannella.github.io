@@ -23,6 +23,11 @@ lairLogo.onclick = () => {
 
 let recall = document.getElementById('recallLogo')
 
+recall.onclick = () => {
+  window.location.href = "https://nuclear-recall.onrender.com/"
+  console.log(window.location.href)
+}
+
 
 
 
